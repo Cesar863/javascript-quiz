@@ -185,7 +185,7 @@ function showHighScores(initials) {
 // view high-scores
 viewHighScores.addEventListener('click', showHighScores);
 
-//enter initals
+//enter initials
 submitButton.addEventListener('click', function (event) {
     event.preventDefault()
     var initials = document.querySelector('#initials-field').value;
